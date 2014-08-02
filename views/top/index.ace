@@ -1,0 +1,30 @@
+= content main
+  header
+    h1 Ace
+    p HTML Template Engine for Go
+  section.example
+    h2 Example
+    pre
+      code.
+        <span class='helper'>= doctype</span> html
+        <span class='tag'>html</span> lang=en
+          <span class='tag'>head</span>
+            <span class='tag'>title</span> Hello Ace
+            <span class='helper'>= css</span>
+              h1 { color: blue; }
+          <span class='tag'>body</span>
+            <span class='tag'>h1</span> {{"{{.Msg}}"}}
+            <span class='id-class'>#container.wrapper</span>
+              <span class='tag'>p..</span>
+                Ace is an HTML template engine for Go.
+            <span class='helper'>= javascript</span>
+              console.log('Welcome to Ace');
+  section.features
+    h2 Features
+    ul
+      li Making Use of the Go Standard Template Package
+      li Simple Syntax
+      li Caching Function
+      li Binary Template Load Function
+  footer
+    a href=https://github.com/yosssi/ace GitHub

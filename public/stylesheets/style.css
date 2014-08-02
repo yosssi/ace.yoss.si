@@ -1,0 +1,101 @@
+html, body, header, section, div, span, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #3669c9;
+  color: #ffffff;
+  padding: 4rem 0 5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #dfdfdf;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #3669c9;
+  border: 0.2rem solid #3669c9;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+footer a:hover {
+  background-color: #3669c9;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #3669c9;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+section {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+section.example {
+  background-color: #dfdfdf;
+}
+
+code {
+  display: block;
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+  overflow-x: scroll;
+  font-size: 1rem;
+}
+
+code .helper {
+  color: #d2691e;
+}
+
+code .tag {
+  color: #3669c9;
+}
+
+code .id-class {
+  color: #228b22;
+}
+
+.features ul {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  code {
+    width: 70%;
+  }
+
+  .features ul {
+    width: 70%;
+  }
+}
