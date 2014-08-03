@@ -61,7 +61,7 @@ section.example {
 
 code {
   display: block;
-  width: 85%;
+  width: 90%;
   text-align: left;
   margin: 0 auto;
   overflow-x: scroll;
@@ -88,6 +88,7 @@ code .id-class {
   font-weight: 300;
   margin-top: 2rem;
   line-height: 3rem;
+  width: 85%;
 }
 
 @media screen and (min-width: 768px) {
